@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="background"></div>
+    <div class="main">
+       <div class="grayline">
+        <img src="images/dandi.svg">
+        <logotext>SEED</logotext>
+        </div>
+       <form action="'#" class="signup">
+        <row class="header">&nbsp Something should grow like this. Don't forget it's all nothing at all.</row>
+        <row class="title">Give me your private information. Now!</row>
+        <row class="input">
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name" required>
+        </row>
+
+        <row class="input">
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name">
+        </row>
+
+        <row class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+        </row>
+
+        <row class="input">
+                <label for="phone-number">Phone number</label>
+                <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+        </row>
+
+        <row class="input">
+                <label for="password">Password</label>
+                <input type="password" name="passwor" id="passwor" required>
+        </row>
+
+        <row class="input">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" required>
+        </row>
+
+        <row class="input">
+                <button type="submit">Sign up!</button>
+        </row>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
