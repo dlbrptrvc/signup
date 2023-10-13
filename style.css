@@ -9,14 +9,11 @@
     padding: 0 0 0 0;
 }
 
-
-.background {
-    position: absolute;
+body {
     background-image: url('images/clover.jpg');
     background-size: cover;
-    width:100vw;
-    height:100vh;
-    z-index: -1;
+    background-repeat: repeat;
+    height: 100%;
 }
 
 .main {
@@ -40,7 +37,6 @@
 img {
     width:150px;
     height:auto;
-
 }
 
 logotext {
